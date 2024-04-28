@@ -1,0 +1,33 @@
+body {
+    margin: 10vh 25vw;
+    
+    box-sizing: border-box;
+}
+
+.image-container {
+    /* border: 1px solid; */
+    color: #000;
+    width: 80vh;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    border: #000 2px solid;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    border: #000 2px solid;
+    height: 40px;
+    width: 592px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #d9f506 20%, #1ce63e 80%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+
