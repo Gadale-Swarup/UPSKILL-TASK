@@ -1,0 +1,23 @@
+.navbar{
+    display:flex;
+
+}
+.ul.navbar li{
+    margin-right: 20px;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 768px) {
+    nav ul {
+      display: none; /* Hide the links in mobile view */
+    }
+    nav .logo {
+      font-size: 24px; /* Adjust logo size */
+      margin-right: auto; /* Push logo to left */
+    }
+    nav .username {
+      font-size: 14px; /* Adjust username size */
+      margin-left: auto; /* Push username to right */
+    }
+  }
